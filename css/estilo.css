@@ -1,0 +1,155 @@
+*{
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+	}
+	html{
+		font-size: 62.5%;
+		scroll-behavior: smooth;
+	}
+	header{
+		background-color:rgba(64,224,208, 0.70) ;
+		color: rgba(248,248,255, 1.0) ;
+		font-family: arial;
+		width: 100%;
+		position: fixed;
+	}		
+
+
+
+	body{
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	h3{
+		font-size: 3.0rem;
+		font-family: arial;
+		margin: 0;
+		padding: 3px;
+		padding-left: 5%;
+
+	}
+
+	h4{
+		font-size: 1rem;
+		font-family: arial;
+		margin: 0;
+		padding-left: 5px;
+		padding-bottom: 5px;
+	}
+
+	nav{
+		text-align: right;
+		margin-top: 5px;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 1.6rem;
+		margin-right: 5%;
+		word-spacing: 20px;
+		margin-bottom: 10px;
+	}
+	a{
+		text-decoration: none;
+		color: rgba(255,255,255, 1.0) ;
+		transition: all 350ms ease-in-out ;
+	}
+	a:hover{
+		color: rgba(65,105,225, 1.0);
+	}
+
+	h2{
+		text-align: center;
+		font-family: arial;
+		font-size: 3.2rem;
+		color: #fff;
+
+	}
+
+	.container{
+		display: block;
+		color: #fff;
+		width: 95%;
+		box-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.8);
+		margin: 0px auto;
+		max-width: 90%;
+		max-height: 90%;
+		min-width: 0;
+		min-height: 0;
+	}
+
+	p{
+		font-family: arial;
+		text-align: justify;
+		padding: 5px;
+		font-size: 1.6rem;
+	}
+	.infografico{
+		text-align: right;
+		width: 80%;
+		height: 90%;
+		border-radius: 10px;
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+		grid-gap: 10px;
+		max-width: 1200px;
+		margin: 0 auto;
+
+	}
+	.grid div{
+		font-family: arial;
+		text-align: center;
+		font-size: 1.6rem;
+		font-weight: bold;
+		padding: 2px;
+		box-shadow: 0.2px 0.2px rgba(0, 0, 0, 0.2);
+
+	}
+	#infografico1{
+		text-align: center;
+	}
+	.griddiv{
+		text-align: center;
+		font-size: 2.5rem;
+		padding-top: 2px;
+	}
+	.historia{
+		width: 100%;
+		height: 40%;
+	}
+	.portfolio{
+		text-align: center;
+		width: 90%;
+		height: 40%;
+	}
+	footer{
+		font-family: arial;
+		color: #FFF;
+		background-color: rgba(64,224,208, 0.70);
+		text-align: left;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+	}
+	.afooter{
+		text-decoration: none;
+		color: rgba(255,255,255, 1.0) ;
+		transition: all 350ms ease-in-out ;
+
+	}
+	#footer1{
+		text-align:	center;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 1.6rem;
+		word-spacing: 20px;
+		margin-bottom: 10px;
+
+	}
+	#aluno{
+			width: 30rem;
+			height:30rem;
+			border-radius: 50%;
+			padding: 30px;
+	}
